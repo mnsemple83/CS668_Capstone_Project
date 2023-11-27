@@ -1,4 +1,3 @@
-![image](https://github.com/mnsemple83/Capstone-Project/assets/79383327/1e6a8c49-52c6-4192-8c39-763776e33021)
 <h1>Spotify Analysis: Grouping songs to build custom playlists</h1>
 <h2>Problem Statement</h2>
 <p>Spotify has the capability to build custom playlusts (also known as Daily Mixes) for its users based on their streaming history. Each of these custom playlists consist of songs that share similarities. Therefore, Spotify must be able to analyze the songs in its library to build these custom playlists.</p>
