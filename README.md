@@ -51,11 +51,11 @@
 </ul>
 <h2>Methodology</h2>
 <ul>
-  <li>Discard most non-linear features to work with an unlabeled dataset.</li>
-  <li>Use dimensionality reduction techniques to determine most important features.</li>
-  <li>K-clustering algorithms will be evaluated to determine the best results.</li>
-  <li>Best performing k-clustering algorithm will be used to analyze cluster quality.</li>
-  <li>Logistic Regression model will try to simulate the addition of new songs to existing playlists.</li>
+  <li>Extract musical features from the dataset, as well as select non-musical features (popularity, duration, and explicit).</li>
+  <li>Apply dimensionality techniques (t-SNE and PCA) to the dataset.</li>
+  <li>Use clustering algorithms to group songs: K-Means, K-Means++, and Mini Batch K-Means.</li>
+  <li>Evaluate the quality of the clusters for each algorithm to determine which one performed the best.</li>
+  <li>Use a Logistic Regression model to cluster new songs based on the already established clusters.</li>
 </ul>
 
 <h2>References</h2>
