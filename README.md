@@ -1,6 +1,6 @@
 <h1>Spotify Analysis: Grouping songs to build custom playlists</h1>
 <h2>Problem Statement</h2>
-<p>Spotify has the capability to build custom playlusts (also known as Daily Mixes) for its users based on their streaming history. Each of these custom playlists consist of songs that share similarities. Therefore, Spotify must be able to analyze the songs in its library to build these custom playlists.</p>
+<p>Spotify has the capability to build custom playlists (also known as Daily Mixes) for its users based on their streaming history. Each of these custom playlists consist of songs that share similarities. Therefore, Spotify must be able to analyze the songs in its library to build these custom playlists.</p>
 <h2>Research Question</h2>
 <p>How does Spotify use song data to build custom playlists for its users?</p>
 <h2>Spotify Tracks Dataset</h2>
@@ -31,12 +31,30 @@
   <li>track_genre</li>
 </ul>
 
+<h2>Exploratory Data Analysis</h2>
+<ul>
+  <li>Songs in the original dataset cover 114 musical genres and 1000 songs for each genre.</li>
+  <li>10% of the original dataset sampled (100 songs per genre).</li>
+  <li>11 duplicates detected and removed.</li>
+  <li>1 observation contained missing values (also removed).</li>
+  <li>2,094 outliers were detected, but they were kept since they were the result of natural variations in the musical features and not erroneous data.</li>
+  <li>Majority of the songs do not contain explicit content.</li>
+  <li>High number rof songs with a poularity score of zero, but they do not make up the majority.</li>
+  <li>Most songs are performed in a major key.</li>
+  <li>Key correlations include:
+    <ul>
+      <li>Energy and loudness (strong positive).</li>
+      <li>Energy and acousticness (strong negative).</li>
+      <li>Acousticness and loudness (strong negative).</li>
+    </ul>
+    </li>
+</ul>
 <h2>Methodology</h2>
 <ul>
   <li>Discard most non-linear features to work with an unlabeled dataset.</li>
   <li>Use dimensionality reduction techniques to determine most important features.</li>
   <li>K-clustering algorithms will be evaluated to determine the best results.</li>
-  <li>Best performing K-clustering algorithm will be used to analyze cluster quality.</li>
+  <li>Best performing k-clustering algorithm will be used to analyze cluster quality.</li>
   <li>Logistic Regression model will try to simulate the addition of new songs to existing playlists.</li>
 </ul>
 
