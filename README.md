@@ -13,6 +13,7 @@
   <li><a href="#eda">Exploratory Data Analysis</a></li>
   <li><a href="#method">Methodology</a></li>
   <li><a href="#notebook">Project Notebook</a></li>
+  <li><a href="#code">Project Code</a></li>
   <li><a href="#ref">References</a></li>
 </ul>
 
@@ -89,6 +90,12 @@
 <h2>Project Notebook</h2>
   <p>Here is a link to the jupyter notebook for the project:</p>
 <a href="https://github.com/mnsemple83/Capstone-Project/blob/main/CS668%20-%20Capstone%20Project%20-%20Custom%20Spotify%20Playlists%20-%20Mikhel%20Semple.ipynb">CS668 - Capstone Project - Custom Spotify Playlists</a>
+</div>
+
+<div id="code">
+<h2>Project Code</h2>
+  <p>Here is a link for the code used in the project (written in Python):</p>
+<a href="https://github.com/mnsemple83/Capstone-Project/blob/main/cs668_project_code.py">CS668 - Capstone Project - Code</a>
 </div>
 
 <div id="ref">
