@@ -12,6 +12,7 @@
   <li><a href="#dataset">Spotify Tracks Dataset</a></li>
   <li><a href="#eda">Exploratory Data Analysis</a></li>
   <li><a href="#method">Methodology</a></li>
+  <li><a href="#notebook">Project Notebook</a></li>
   <li><a href="#ref">References</a></li>
 </ul>
 
@@ -82,6 +83,12 @@
   <li>Evaluate the quality of the clusters for each algorithm to determine which one performed the best.</li>
   <li>Use a Logistic Regression model to cluster new songs based on the already established clusters.</li>
 </ul>
+</div>
+
+<div id="notebook">
+<h2>Project Notebook</h2>
+  <p>Here is a link to the jupyter notebook for the project:</p>
+<a href="https://github.com/mnsemple83/Capstone-Project/blob/main/CS668%20-%20Capstone%20Project%20-%20Custom%20Spotify%20Playlists%20-%20Mikhel%20Semple.ipynb">CS668 - Capstone Project - Custom Spotify Playlists</a>
 </div>
 
 <div id="ref">
