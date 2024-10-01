@@ -14,6 +14,7 @@
   <li><a href="#eda">Exploratory Data Analysis</a></li>
   <li><a href="#method">Methodology</a></li>
   <li><a href="#results">Results</a></li>
+  <li><a href="#conclusion">Conclusion & Future Work</a></li>
   <li><a href="#notebook">Project Notebook</a></li>
   <li><a href="#code">Project Code</a></li>
   <li><a href="#ref">References</a></li>
@@ -116,6 +117,10 @@
     </tr>
   </table>
   <p>Based on the overall F1 score, the Logistic Regression model performed best with the K = 3 dataset. The performance score is a measure of the model's ability to determine the best playlist for newer songs, which is helpful when making recommendations.</p>
+</div>
+<div id="conclusion">
+  <h2>Conclusion & Future Work</h2>
+  <p>K-clustering algorithms have provided a method for Spotify (and any other streaming services) to build custom playlists based on the metadata collected from the songs in its library. It is also possible to add songs to these playlists using a Logistic Regression model that is capable of identifying the best playlist for these songs. However, the performance scores of these models do indicate that there is room for improvement. The quality of these clusters could have been improved if a larger subset of data were used. Also, experimentation was limited by system resources. A more powerful system could have allowed for more extensive tuning of model parameters. Finally, the difficulty of identifying the best clusters could have been influenced by the outliers of the dataset, which were actually natural variations of the songs, and not the result of erroneous data. All this can be considered for future exploration on this subject.</p>
 </div>
 <div id="notebook">
 <h2>Project Notebook</h2>
