@@ -32,7 +32,7 @@
 </div>
 <div id="related_work">
   <h2>Related Work</h2>
-  <p>Many studies have applied several clustering algorithms to group songs based on their feature data [3,4,5,6,8]; Techniques for feature extraction include (XGBoost) [1], digital signal processing and autoencoding [2], and Pitch Class Profile (PCP) [6]; [3,5] used the Silhouette Score and Davies-Bouldin Index metrics to evaluate the performance of clustering algorithms; [6] used Histogram clustering to measure accuracy; [3] applied t-SNE and PCA to reduce the dimensionality of the dataset; K-Means [3,5], or K-Means++ [6], performed the best when it came to building clusters of songs that share similar characteristics; [4] used the clusters to decide the best playlist to access based on the user's emotional state and the music that they were listening to.</p>
+  <p>Many studies have applied several clustering algorithms to group songs based on their feature data <b>[3,4,5,6,8]</b>; Techniques for feature extraction include (XGBoost) <b>[1]</b>, digital signal processing and autoencoding <b>[2]</b>, and Pitch Class Profile (PCP) <b>[6]</b>; <b>[3,5]</b> used the Silhouette Score and Davies-Bouldin Index metrics to evaluate the performance of clustering algorithms; <b>[6]</b> used Histogram clustering to measure accuracy; <b>[3]</b> applied t-SNE and PCA to reduce the dimensionality of the dataset; K-Means <b>[3,5]</b>, or K-Means++ <b>[6]</b>, performed the best when it came to building clusters of songs that share similar characteristics; <b>[4]</b> used the clusters to decide the best playlist to access based on the user's emotional state and the music that they were listening to.</p>
 </div>
 <div id="dataset">
 <h2>Spotify Tracks Dataset</h2>
