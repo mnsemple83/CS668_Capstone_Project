@@ -7,22 +7,32 @@
 <p>The following is a description of the project. Here are the sections for easier navigation:</p>
 
 <ul>
+  <li><a href="#abstract">Abstract</a></li>
   <li><a href="#problem">Problem Statement</a></li>
   <li><a href="#question">Research Question</a></li>
+  <li><a href="#related_work">Related Work</a></li>
   <li><a href="#dataset">Spotify Tracks Dataset</a></li>
   <li><a href="#eda">Exploratory Data Analysis</a></li>
   <li><a href="#method">Methodology</a></li>
+  <li><a href="#results">Results</a></li>
   <li><a href="#notebook">Project Notebook</a></li>
   <li><a href="#code">Project Code</a></li>
   <li><a href="#ref">References</a></li>
 </ul>
 
+<div id="abstract"><h2>Abstract</h2>
+  <p>Spotify is one of the most popular online platforms for streaming music. Based on the music streamed by its listeners, it can create custom playlists with a theme. Therefore, Spotify needs to be able to analyze the metadata collected from the songs in its library to build these playlists. In this study, K-clustering algorithms will be used to cluster songs based on their shared data qualities. Then, a Logistic Regression model will learn from these clusters to add new songs to these playlists. This methodolofy will contribute to a better experience for Spotify's users.</p>
+</div>
 <div id="problem"><h2>Problem Statement</h2>
 <p>Spotify has the capability to build custom playlists (also known as Daily Mixes) for its users based on their streaming history. Each of these custom playlists consist of songs that share similarities. Therefore, Spotify must be able to analyze the songs in its library to build these custom playlists.</p>
 </div>
 <div id="question">
 <h2>Research Question</h2>
 <p>How does Spotify use song data to build custom playlists for its users?</p>
+</div>
+<div id="related_work">
+  <h2>Related Work</h2>
+  <p>Many studies have applied several clustering algorithms to group songs based on their feature data [3,4,5,6,8]; Techniques for feature extraction include (XGBoost) [1], digital signal processing and autoencoding [2], and Pitch Class Profile (PCP) [6]; [3,5] used the Silhouette Score and Davies-Bouldin Index metrics to evaluate the performance of clustering algorithms; [6] used Histogram clustering to measure accuracy; [3] applied t-SNE and PCA to reduce the dimensionality of the dataset; K-Means [3,5], or K-Means++ [6], performed the best when it came to building clusters of songs that share similar characteristics; [4] used the clusters to decide the best playlist to access based on the user's emotional state and the music that they were listening to.</p>
 </div>
 <div id="dataset">
 <h2>Spotify Tracks Dataset</h2>
@@ -85,7 +95,13 @@
   <li>Use a Logistic Regression model to cluster new songs based on the already established clusters.</li>
 </ul>
 </div>
-
+<div id="results">
+  <h2>Results</h2>
+  <p>Each of the algorithms performed the best with the t-SNE dataset, and the K-means algorithm had the overall best performance. This is visualized by the following chart that measures the average silhouette scores:</p>
+  <p>Using the K-Means algorithm, clusters were formed using a range of k values where k represents the number of clusters to be formed from the data. According to the silhouette plits and cluster diagrams, k values of 3 and 4 provided the best clusters.</p>
+  <p>With each song assigned to a cluster, the datasets for each k value were fitted to the Logistic Regression model for training and testing. The testing set represents the new songs to be added. The results of the Logistic Regression model were evaluated using a Confusion Matrix.</p>
+  <p>Based on the overall F1 score, the Logistic Regression model performed best with the K = 3 dataset. The performance score is a measure of the model's ability to determine the best playlist for newer songs, which is helpful when making recommendations.</p>
+</div>
 <div id="notebook">
 <h2>Project Notebook</h2>
   <p>Here is a link to the jupyter notebook for the project:</p>
