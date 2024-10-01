@@ -8,7 +8,6 @@
 
 <ul>
   <li><a href="#abstract">Abstract</a></li>
-  <li><a href="#problem">Problem Statement</a></li>
   <li><a href="#question">Research Question</a></li>
   <li><a href="#related_work">Related Work</a></li>
   <li><a href="#dataset">Spotify Tracks Dataset</a></li>
@@ -21,10 +20,7 @@
 </ul>
 
 <div id="abstract"><h2>Abstract</h2>
-  <p>Spotify is one of the most popular online platforms for streaming music. Based on the music streamed by its listeners, it can create custom playlists with a theme. Therefore, Spotify needs to be able to analyze the metadata collected from the songs in its library to build these playlists. In this study, K-clustering algorithms will be used to cluster songs based on their shared data qualities. Then, a Logistic Regression model will learn from these clusters to add new songs to these playlists. This methodolofy will contribute to a better experience for Spotify's users.</p>
-</div>
-<div id="problem"><h2>Problem Statement</h2>
-<p>Spotify has the capability to build custom playlists (also known as Daily Mixes) for its users based on their streaming history. Each of these custom playlists consist of songs that share similarities. Therefore, Spotify must be able to analyze the songs in its library to build these custom playlists.</p>
+  <p>Spotify is one of the most popular online platforms for streaming music. Based on the music streamed by its listeners, it can create custom playlists with a theme. Therefore, Spotify needs to be able to analyze the metadata collected from the songs in its library to build these playlists. In this study, K-clustering algorithms will be used to cluster songs based on their shared data qualities. Then, a Logistic Regression model will learn from these clusters to add new songs to these playlists. This methodology will contribute to a better experience for Spotify's users.</p>
 </div>
 <div id="question">
 <h2>Research Question</h2>
