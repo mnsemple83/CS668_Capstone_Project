@@ -94,8 +94,27 @@
 <div id="results">
   <h2>Results</h2>
   <p>Each of the algorithms performed the best with the t-SNE dataset, and the K-means algorithm had the overall best performance. This is visualized by the following chart that measures the average silhouette scores:</p>
+  <table>
+    <tr>
+      <td><img src="https://github.com/mnsemple83/CS668_Capstone_Project/blob/main/k-means_silhouette_scores_graph.png" width='70%' /></td>
+    </tr>
+  </table>
   <p>Using the K-Means algorithm, clusters were formed using a range of k values where k represents the number of clusters to be formed from the data. According to the silhouette plits and cluster diagrams, k values of 3 and 4 provided the best clusters.</p>
+  <table>
+    <tr>
+      <td><img src="https://github.com/mnsemple83/CS668_Capstone_Project/blob/main/k-means_results_value_3.png" width='80%' /></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/mnsemple83/CS668_Capstone_Project/blob/main/k-means_results_value_4.png" width='80%' /></td>
+    </tr>
+  </table>
   <p>With each song assigned to a cluster, the datasets for each k value were fitted to the Logistic Regression model for training and testing. The testing set represents the new songs to be added. The results of the Logistic Regression model were evaluated using a Confusion Matrix.</p>
+  <table>
+    <tr>
+      <td><img src="https://github.com/mnsemple83/CS668_Capstone_Project/blob/main/confusion_matrix_k_3.png" width='70%' /></td>
+      <td><img src="https://github.com/mnsemple83/CS668_Capstone_Project/blob/main/confusion_matrix_k_4.png" width='70%' /></td>
+    </tr>
+  </table>
   <p>Based on the overall F1 score, the Logistic Regression model performed best with the K = 3 dataset. The performance score is a measure of the model's ability to determine the best playlist for newer songs, which is helpful when making recommendations.</p>
 </div>
 <div id="notebook">
